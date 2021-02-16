@@ -1,1 +1,3 @@
-console.log('hello world')
+import example from './example';
+
+example('test');

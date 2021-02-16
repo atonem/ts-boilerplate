@@ -4,6 +4,9 @@
   "description": " A boilerplate for collaboration in TypeScript projects. ",
   "main": "dist/index.js",
   "scripts": {
+    "start": "ts-node src/index.ts",
+    "clean": "rimraf dist",
+    "build": "tsc",
     "format": "prettier --write src/**/*.ts",
     "lint": "eslint --fix src/**/*.ts",
     "lint-staged": "lint-staged",
@@ -33,6 +36,7 @@
     "husky": "^5.0.9",
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.5"
   }
